@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/private?useUnicode=yes&characterEncoding=UTF-8&rewriteBatchedStatements=true
+    username: seungseok
+    password: votmdnjem1234
+  jpa:
+    hibernate:
+      ddl-auto: create
