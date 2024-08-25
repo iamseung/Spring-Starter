@@ -1,4 +1,4 @@
-package com.example.start.service;
+package com.example.start.pattern;
 
 import com.example.start.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
